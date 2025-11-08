@@ -121,6 +121,7 @@ function removeItem(item) {
   if (confirm('Are you sure?')) {
     // Remove from DOM
     item.remove();
+    resetUI();
     // Remove from storage
     removeItemFromStorage(item.textContent);
   }
