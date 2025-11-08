@@ -19,7 +19,7 @@ function onAddItemSubmit(e) {
   const newItem = itemInput.value;
   //Validate input
   if (newItem === '') {
-    alert('Please enter a item.');
+    alert('Please enter an item.');
     return;
   }
 
